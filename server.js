@@ -18,7 +18,7 @@ app.get('/', (req, res) => {
 // post request that logs the value of 'city' to the console
 app.post('/', (req, res) => {
   let city = req.body.city;
-  let url = `http://api.openweathermap.org/data/2.5/weather?q=${city}&units=imperial&appid=${apiKey}`
+  let url = `http://api.openweathermap.org/data/2.5/weather?q=${city}&units=Metric&appid=${apiKey}`
 
   request(url, function (err, response, body) {
     if(err){
