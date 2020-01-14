@@ -6,6 +6,7 @@ body {
   width: 800px;
   margin: 0 auto;
   font-family: 'Open Sans', sans-serif;
+  background-image: url("1.jpg")
 }
 
 .container {
@@ -29,6 +30,7 @@ fieldset {
   border-image-repeat: initial;
   min-width: -webkit-min-content;
   padding: 30px;
+
 }
 
 .ghost-input, p {
@@ -52,6 +54,7 @@ fieldset {
   -ms-transition: all 0.1s ease-in-out;
   -o-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
+  color: black;
 }
 
 .ghost-input:focus {
@@ -59,7 +62,7 @@ fieldset {
 }
 
 .ghost-button {
-  background-color: transparent;
+  background-color: white;
   border:2px solid #ddd;
   padding:10px 30px;
   width: 100%;
@@ -76,5 +79,5 @@ fieldset {
 }
 
 p {
-  color: #E64A19;
+  color: black;
 }
