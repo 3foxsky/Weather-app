@@ -1,9 +1,10 @@
 # weatherApplication
-# Server 
-NodeJs+Express
-Run with:
+# Run:
 node server.js
 nodemon server.js
+# Server 
+NodeJs+Express
+npm install --save express
 # Client 
 EJS (Embedded Javascript). EJS is a templating language.
 ## Install: 
